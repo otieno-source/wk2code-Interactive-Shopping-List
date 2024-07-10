@@ -6,7 +6,6 @@ const userinput = document.getElementById('inpt')
 const listing = document.getElementById('listed')
 
 // creating the onclick function to add items to the list for my button 'btn1'
-
 function addlist(){
   if (userinput.value === '') {
     alert('Enter item');
@@ -18,9 +17,6 @@ function addlist(){
   }
   userinput.value = '';
 }
-
-let add = document.getElementById('btn1').addEventListener(addlist());
-
 //creating delete function for the clear button
 function deleting(){
   document.getElementById("listed").innerHTML = "";
