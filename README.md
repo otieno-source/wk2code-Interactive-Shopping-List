@@ -1,7 +1,7 @@
 ### wk2code-Interactive-Shopping-List
 
 ## html part
-1. have create 2 sections in my page; input area and out put area
+1.have create 2 sections in my page; input area and out put area
 <div id="form"></div> as the input area with button 'btn1' to list user-input in the out put section
 
 <div id="output"></div> this is the output section dispalying user-input inform of a list. it has a clear button 'btn2' to clear its content.
