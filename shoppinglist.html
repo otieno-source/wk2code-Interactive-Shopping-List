@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML Forms</title>
+    <link rel="stylesheet" href="shoppinglist.css" />
+  </head>
+  <body>
+    <h1 id="heading">Daily routine-App</h1>
+    <div id="form">
+      <h2 id="p1">SHOPPING LIST</h2>
+      <br />
+      <input type="text" name="name" id="inpt" placeholder="Type here" />
+      <br />
+      <button onclick="addlist()" id="btn1">Add to List</button>
+    </div>
+    <div id="output">
+      <h3>Your List</h3>
+      <ul id="listed"></ul>
+      <button onclick="deleting()" id="btn2">Clear</button>
+      <button id="btn3">Mark Purchased</button>
+    </div>
+    <script src="shoppinglist.js"></script>
+  </body>
+</html>
