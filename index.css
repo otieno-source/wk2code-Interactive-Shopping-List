@@ -40,7 +40,7 @@ body {
     border-color: black;
     border-style: groove;
 }
-#output {
+.output {
     background-color: rgb(6, 202, 137);
     display: inline-block;
     width: 35%;
@@ -60,4 +60,3 @@ body {
 #btn3 {
     float: right;
 }
-
